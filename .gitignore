@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# test folders/files
+yatube_api/media
+
 # Distribution / packaging
 .Python
 build/
