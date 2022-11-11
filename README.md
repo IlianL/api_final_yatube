@@ -152,7 +152,7 @@ POST http://127.0.0.1:8000/api/v1/jwt/create/ Получаем токен.\
 "access": "string"
 }
 ```
-Для авторизации  вы должны передавать ключ access в заголовке, key - "Authorization", value "Bearer и ваше значение access"
+Для авторизации вы должны передавать ключ access в заголовке, key - "Authorization", value "Bearer и ваше значение access"
 
 POST http://127.0.0.1:8000/api/v1/jwt/refresh/ Обновление JWT-токена.\
 refresh получаем во время создания токена по эндпоинту jwt/create/\
